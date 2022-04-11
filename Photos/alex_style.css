@@ -1,0 +1,34 @@
+P {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Verdana,Geneva,Arial,Helvetica,sans-serif; TEXT-DECORATION: none
+}
+UL {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Verdana,Geneva,Arial,Helvetica,sans-serif; TEXT-DECORATION: none
+}
+LI {
+	FONT-SIZE: 10pt; COLOR: #32323a; FONT-FAMILY: Verdana,Geneva,Arial,Helvetica,sans-serif; TEXT-DECORATION: none
+}
+DIV {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Verdana,Geneva,Arial,Helvetica,sans-serif; TEXT-DECORATION: none
+}
+H1 {
+	FONT-SIZE: 13pt; COLOR: #32323a; FONT-FAMILY: Verdana,Geneva,Arial,Helvetica,sans-serif; TEXT-DECORATION: none
+}
+H3 {
+	FONT-SIZE: 12pt; COLOR: red; FONT-FAMILY: Verdana,Geneva,Arial,Helvetica,sans-serif; TEXT-DECORATION: none
+}
+
+A:link {
+	COLOR: #004576; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #004576; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #004576; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #004576; TEXT-DECORATION: none
+}
+.al_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #006600; FONT-FAMILY: Verdana,Geneva,Arial,Helvetica,sans-serif; TEXT-DECORATION: none
+}

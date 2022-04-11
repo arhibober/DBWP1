@@ -1,0 +1,15 @@
+h2 {  color: #006600; text-align: center;} 
+a  {  text-decoration:none; }
+A:link, A:visited, A:active { color:black; }
+A:hover { color:white; background-color:#006600; }
+p  {  text-indent:2em; text-align: justify;}
+.poem  { text-indent:0em; margin-left = 25pt;  text-align: left;}
+.c { text-align: center;}
+h5 { text-align: center;}
+h1 { text-align: center; color: #006600;}
+h3 { text-align: center; color: #006600;}
+h5.p {  text-indent:2em; text-align: justify;}
+HR{ WIDTH: 100%; NOSHADE; color:lightgray }  
+UL {list-style-image:url('photo.gif')}
+LI {padding: 0px 10px; vertical-align:super}
+ 

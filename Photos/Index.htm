@@ -1,0 +1,189 @@
+<HTML>
+<head>
+<LINK REL="stylesheet" TYPE="text/css" HREF="DayBook.css">
+<TITLE> ƒневник </TITLE>
+</head>
+  <LINK href = alex_style.css" type=text/css> 
+    <BODY Bgcolor="#CCFFCC" Text="#000000"  >
+      <IMG SRC="Bow.gif" width="100%">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="20%">
+        <tr>
+          <td bgcolor ="FFFFCC"> 
+             <H1> 
+                ƒневник
+             </H1>
+             <H3> 
+               јлексе€ »ванова, составленный по его старым дневникам и его собственной пам€ти.<br>
+               Ќачина€ с 18 сент€бр€ 1994 года.
+             </H3>  
+           </td>
+          </tr>
+        </table>
+        <IMG SRC="Bow.gif" width="100%">
+        <table width="100%" border="0" cellspacing="3" cellpadding="0" height="70%">
+        <tr>
+          <td>
+             <IMG SRC="Day1.jpg">
+          </td>
+          <td>
+            <H5>  
+              <A HREF= "1994.htm"> 1994 год.<br><br></A>
+              <A HREF= "1995.htm"> 1995 год.<br><br></A>
+              <A HREF= "1996.htm"> 1996 год.<br><br></A>
+              <A HREF= "1997.htm"> 1997 год.<br><br></A>
+              <A HREF= "1998.htm"> 1998 год.<br><br></A>
+              <A HREF= "1999.htm"> 1999 год.<br><br></A>
+              <A HREF= "2000.htm"> 2000 год.<br><br></A>
+              <A HREF= "2001.htm"> 2001 год.<br><br></A>
+              <A HREF= "2002.htm"> 2002 год.<br><br></A>
+              <A HREF= "2003.htm"> 2003 год.<br><br></A>
+              <A HREF= "2004.htm"> 2004 год.<br><br></A>
+              <A HREF= "2005.htm"> 2005 год.<br><br></A>
+              <A HREF= "2006.htm"> 2006 год.<br><br></A>
+              <A HREF= "2007.htm"> 2007 год.<br><br></A>              
+              <A HREF= "2008.htm"> 2008 год.<br><br></A>
+              <A HREF= "2009.htm"> 2009 год.<br><br></A>
+              <A HREF= "2010.htm"> 2010 год.<br><br></A>
+              <A HREF= "2011.htm"> 2011 год.<br><br></A>
+              <A HREF= "2012.htm"> 2012 год.<br><br></A>              
+              <A HREF= "2013.htm"> 2013 год.<br><br></A>              
+              <A HREF= "2014.htm"> 2014 год.<br><br></A>        
+              <A HREF= "2015.htm"> 2015 год.<br><br></A>
+              <a href="..\Home\Home.htm">Home page дизайнера</a><br>
+            </H5>
+<p>
+  <SCRIPT language=JavaScript>
+  calendar = new Date();
+  day = calendar.getDay();
+  document.write("<b>")
+  document.write("<font face=Times New Roman><font size=3>  Cегодн€ ")
+  if (day == 0) {
+    document.write("воскресенье, ")
+  }
+  if (day == 1) {
+    document.write("понедельник, ")  
+  }
+  if (day == 2) {
+    document.write("вторник, ")
+  }
+  if (day == 3) {
+    document.write("среда, ")
+  }
+  if (day == 4) {
+  document.write("четверг, ")
+  }
+  if (day == 5) {
+  document.write("п€тница, ")
+  }
+  if (day == 6) {
+  document.write("суббота, ")
+  }
+  if (day == 7) {
+  document.write("воскресенье, ")
+  }
+  
+  date = calendar.getDate();
+  document.write(date)
+  
+  month = calendar.getMonth();
+  if (month == 0) {
+  document.write(" €нвар€ ")  
+  }
+  if (month == 1) {
+  document.write(" феврал€ ")
+  }
+  if (month == 2) {
+  document.write(" марта ")
+  }
+  if (month == 3) {
+  document.write(" апрел€ ")
+  }
+  if (month == 4) {
+  document.write(" ма€ ")
+  }
+  if (month == 5) {
+  document.write(" июн€ ")
+  }
+  if (month == 6) {
+  document.write(" июл€ ")
+  }
+  if (month == 7) {
+  document.write(" августа ")
+  }
+  if (month == 8) {
+  document.write(" сент€бр€ ")
+  }
+  if (month == 9) {
+  document.write(" окт€бр€ ")
+  }
+  if (month == 10) {
+  document.write(" но€бр€ ")
+  }
+  if (month == 11) {
+  document.write(" декабр€ ")
+  }
+
+  year = calendar.getYear();
+  if (year < 100) {
+  document.write("19" + year + "")
+  }
+  else if (year > 1999) {
+  document.write(year)
+  }
+  document.write(" </font>")
+  document.write("</b>")
+</SCRIPT>
+</p>
+<H4 align="center">
+
+
+<script language="JavaScript">
+function day_f(s, s1, s2) {
+  var Ye = prompt(s, '');
+      Mon = prompt(s1, '');
+      Num = prompt(s2, '');
+    var month;
+    switch (Mon) {
+      case '1': month = "January";
+                      break; 
+      case '2': month = "February";
+                      break; 
+      case '3': month = "March";
+                      break;        
+      case '4': month = "April";
+                      break;  
+      case '5': month = "May";
+                      break; 
+      case '6': month = "Juni";
+                      break; 
+      case '7': month = "July";
+                      break; 
+      case '8': month = "August";
+                      break; 
+      case '9': month = "September";
+                      break; 
+      case '10': month = "Octember";
+                      break; 
+      case '11': month = "November";
+                      break; 
+      case '12': month = "December";
+                      break; 
+      default: month = "January";
+}
+    var url = month + Ye + '.htm#chapter' + Num;
+    location = url;
+     
+}
+</script>
+
+<button onClick="day_f('¬ведите год', '¬ведите номер мес€ца', '¬ведите число')">ѕоиск даты</button> 
+
+</H4>
+              
+          </td>
+          <td align=right>
+             <IMG SRC="Day2.jpg">
+          </td>
+        </tr>
+    </BODY> 
+</HTML> 
